@@ -1,0 +1,27 @@
+0, 25, CPU burst
+25, 1, switch to kernel mode
+26, 10, context saved
+36, 1, find vector 12 in memory position 0x0018
+37, 1, load address 0X03B9 into the PC
+38, 40, ISR body executed for device 12
+78, 1, IRET
+79, 40, CPU burst
+119, 1, switch to kernel mode
+120, 10, context saved
+130, 1, find vector 5 in memory position 0x000A
+131, 1, load address 0X048B into the PC
+132, 40, ISR body executed for device 5
+172, 1, IRET
+173, 1, switch to kernel mode
+174, 10, context saved
+184, 1, find vector 12 in memory position 0x0018
+185, 1, load address 0X03B9 into the PC
+186, 40, ISR body executed for device 12
+226, 1, IRET
+227, 35, CPU burst
+262, 1, switch to kernel mode
+263, 10, context saved
+273, 1, find vector 5 in memory position 0x000A
+274, 1, load address 0X048B into the PC
+275, 40, ISR body executed for device 5
+315, 1, IRET
